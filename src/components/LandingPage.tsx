@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import HomeIcon from "../assets/navigations/home.png";
 import AboutIcon from "../assets/navigations/about.png";
 import ProjectsIcon from "../assets/navigations/projects.png";
@@ -17,12 +17,30 @@ const icons = [
 ];
 
 const LandingPage: React.FC = () => {
+  const [isFixed, setIsFixed] = useState(true);
+  const fixedPoint = 500; // Change this value to the desired point
+
+  const handleScroll = () => {
+    if (window.scrollY > fixedPoint) {
+      setIsFixed(false);
+    } else {
+      setIsFixed(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="relative min-h-screen flex flex-col justify-center items-center bg-slate-900">
       <div className="absolute inset-0 bg-slate-900 backdrop-blur-sm"></div>
       <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8 w-full mx-auto">
         <nav className="md:order-1 lg:ml-[240px]">
-          <ul className="text-white flex flex-col ">
+          <ul className="text-white flex flex-col">
             {icons.map((item, index) => (
               <li
                 key={index}
@@ -41,7 +59,7 @@ const LandingPage: React.FC = () => {
           </ul>
         </nav>
 
-        <div className="text-center md:order-2 lg:mr-[360px] lg:mt-[-45px]">
+        <div className="text-center md:order-2 lg:mr-[1000px] lg:mt-[-45px]">
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400 text-left">
             HI, THIS IS
           </p>
@@ -66,7 +84,11 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-white rounded-full overflow-hidden md:order-3 lg:mr-[200px] lg:mt-[-60px]">
+        <div
+          className={`transition-all duration-300 ${
+            isFixed ? "fixed top-[400px] right-40" : "absolute top-[660px] right-40"
+          } w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-white rounded-full overflow-hidden md:order-3`}
+        >
           <img
             src={MyPhoto}
             alt="Sarika's Photo"
