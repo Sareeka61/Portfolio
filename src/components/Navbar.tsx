@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
 
-          <button className="border-2 border-white py-2 px-4 rounded-md">
+          <button className="border-2 border-white py-2 px-4 rounded-md hover:bg-white hover:text-slate-900">
             Resume
           </button>
         </ul>
