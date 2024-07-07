@@ -5,7 +5,7 @@ import ProjectsIcon from "../assets/navigations/projects.png";
 import InvolvementsIcon from "../assets/navigations/involvements.png";
 import BlogsIcon from "../assets/navigations/blog.png";
 import ContactIcon from "../assets/navigations/contact.png";
-import MyPhoto from "../assets/my-photo.jpeg";
+import MyPhoto from "../assets/sarika.png";
 
 const icons = [
   { icon: HomeIcon, text: "Home" },
@@ -87,13 +87,23 @@ const LandingPage: React.FC = () => {
         <div
           className={`transition-all duration-300 ${
             isFixed ? "fixed top-[400px] right-40" : "absolute top-[600px] right-40"
-          } w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-white rounded-full overflow-hidden md:order-3`}
+          }`}
         >
-          <img
-            src={MyPhoto}
-            alt="Sarika's Photo"
-            className="object-cover w-full h-full rounded-full"
-          />
+          <div className="relative">
+            <div className="absolute w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-rose-300 rounded-full"></div>
+            <img
+              src={MyPhoto}
+              alt="Sarika's Photo"
+              className="object-cover w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full"
+              style={{
+                position: "relative",
+                zIndex: 10,
+                top: -40,
+                left: 0,
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.9)",
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>
