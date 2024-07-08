@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: "Noto Serif", serif;
+    font-family:"Sora", sans-serif;
 }
 
 .blob-shape {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About:React.FC = () => {
   return (
-    <div className="bg-slate-900 h-[800px]">
+    <div className="bg-primary h-[800px]">
     <div className="lg:ml-[440px] text-white">
         <span className="text-4xl font-bold text-rose-400">Know Sarika</span>
         <div className="mt-2">

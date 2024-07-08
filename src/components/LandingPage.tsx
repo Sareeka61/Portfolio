@@ -1,20 +1,6 @@
 import React, { useState, useEffect } from "react";
-import HomeIcon from "../assets/navigations/home.png";
-import AboutIcon from "../assets/navigations/about.png";
-import ProjectsIcon from "../assets/navigations/projects.png";
-import InvolvementsIcon from "../assets/navigations/involvements.png";
-import BlogsIcon from "../assets/navigations/blog.png";
-import ContactIcon from "../assets/navigations/contact.png";
+import Navbar from "./Navbar";
 import MyPhoto from "../assets/sarika.png";
-
-const icons = [
-  { icon: HomeIcon, text: "Home" },
-  { icon: AboutIcon, text: "About" },
-  { icon: ProjectsIcon, text: "Projects" },
-  { icon: InvolvementsIcon, text: "Involvements" },
-  { icon: BlogsIcon, text: "Blogs" },
-  { icon: ContactIcon, text: "Contact" },
-];
 
 const LandingPage: React.FC = () => {
   const [isFixed, setIsFixed] = useState(true);
@@ -36,73 +22,74 @@ const LandingPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col justify-center items-center bg-slate-900">
-      <div className="absolute inset-0 bg-slate-900 backdrop-blur-sm"></div>
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8 w-full mx-auto">
-        <nav className="fixed lg:ml-[240px]">
-          <ul className="text-white flex flex-col">
-            {icons.map((item, index) => (
-              <li
-                key={index}
-                className="cursor-pointer flex flex-col items-center group"
-              >
-                <img
-                  src={item.icon}
-                  alt={`${item.text} Icon`}
-                  className="w-6 h-6"
-                />
-                <span className="opacity-0 bg-black text-white rounded-sm transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
-                  {item.text}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        <div className="text-center md:order-2 lg:ml-[600px] lg:mt-[-45px]">
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400 text-left">
-            HI, THIS IS
-          </p>
-          <span className="block text-5xl sm:text-6xl md:text-6xl lg:text-7xl text-rose-400">
-            SARIKA GHIMIRE
-          </span>
-          <hr className="my-2 border-white" />
-          <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-400 text-left">
-            Computer Science Student
-          </span>
-
-          <div className="flex justify-between mt-[40px]">
-            <div className="bg-white rounded-full px-5 py-3 mr-12">
-              <span className="text-slate-900 font-bold">Passionate</span>
-            </div>
-            <div className="bg-white rounded-full px-5 py-3 mr-12">
-              <span className="text-rose-900 font-bold">Ambitious</span>
-            </div>
-            <div className="bg-white rounded-full px-5 py-3 mr-12">
-              <span className="text-slate-900 font-bold">Proactive</span>
+    <div className="relative min-h-screen bg-primary">
+      <Navbar />
+      <div className="absolute inset-0 bg-primary backdrop-blur-sm"></div>
+      <div className="relative z-10 flex flex-col items-center justify-center px-4 sm:px-8 lg:px-0">
+        <div className="flex flex-col items-center justify-center gap-8 py-8 md:py-16 lg:flex-row lg:gap-16">
+          <div
+            className={`transition-all duration-300 ${
+              isFixed
+                ? "lg:fixed lg:top-[400px] lg:right-24"
+                : "lg:absolute lg:top-[100px] lg:right-8"
+            }`}
+          >
+            <div className="relative lg:mr-[180px]">
+              <div className="absolute w-28 h-28 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 bg-rose-300 rounded-full"></div>
+              <img
+                src={MyPhoto}
+                alt="Sarika's Photo"
+                className="object-cover w-28 h-28 sm:w-50 sm:h-50 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-full"
+                style={{
+                  position: "relative",
+                  zIndex: 10,
+                  top: -24,
+                  boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.9)",
+                }}
+              />
             </div>
           </div>
-        </div>
 
-        <div
-          className={`transition-all duration-300 ${
-            isFixed ? "fixed top-[400px] right-40" : "absolute top-[600px] right-40"
-          }`}
-        >
-          <div className="relative">
-            <div className="absolute w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-rose-300 rounded-full"></div>
-            <img
-              src={MyPhoto}
-              alt="Sarika's Photo"
-              className="object-cover w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full"
-              style={{
-                position: "relative",
-                zIndex: 10,
-                top: -40,
-                left: 0,
-                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.9)",
-              }}
-            />
+          <div className="text-center lg:text-left mt-24 lg:mr-[380px]">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400">
+              HI, THIS IS
+            </p>
+            <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-rose-400">
+              SARIKA GHIMIRE
+            </span>
+            <hr className="my-2 border-white w-16 sm:w-20 md:w-24 lg:w-32" />
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-400">
+              Computer Science Student
+            </span>
+
+            <div className="flex flex-col md:flex-row justify-center lg:justify-start mt-4 md:mt-8 gap-4 md:gap-8">
+              <div className="bg-white rounded-full px-4 py-2 md:px-6 md:py-3">
+                <span className="text-slate-900 font-bold text-sm md:text-base">
+                  Passionate
+                </span>
+              </div>
+              <div className="bg-white rounded-full px-4 py-2 md:px-6 md:py-3">
+                <span className="text-rose-900 font-bold text-sm md:text-base">
+                  Ambitious
+                </span>
+              </div>
+              <div className="bg-white rounded-full px-4 py-2 md:px-6 md:py-3">
+                <span className="text-slate-900 font-bold text-sm md:text-base">
+                  Proactive
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <a
+                href="/path/to/your/resume.pdf"
+                className="text-rose-400 text-xl underline px-6 py-2 rounded-full inline-block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>
