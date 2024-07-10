@@ -4,14 +4,11 @@ import MyPhoto from "../assets/sarika.png";
 
 const LandingPage: React.FC = () => {
   const [isFixed, setIsFixed] = useState(true);
-  const fixedPoint = 500;
+  const fixedPoint = 770;
 
   const handleScroll = () => {
-    if (window.scrollY > fixedPoint) {
-      setIsFixed(false);
-    } else {
-      setIsFixed(true);
-    }
+    const shouldFix = window.scrollY <= fixedPoint;
+    setIsFixed(shouldFix);
   };
 
   useEffect(() => {
@@ -22,7 +19,7 @@ const LandingPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-primary">
+    <div className="relative lg:min-h-[850px] bg-primary">
       <Navbar />
       <div className="absolute inset-0 bg-primary backdrop-blur-sm"></div>
       <div className="relative z-10 flex flex-col items-center justify-center px-4 sm:px-8 lg:px-0">

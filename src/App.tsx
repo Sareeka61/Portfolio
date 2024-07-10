@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import About from './components/About';
 import Experience from './components/Experience';
+import SocialMedia from './components/SocialMedia';
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <Navbar />
       <LandingPage />
       <About />
+      < SocialMedia />
       <Experience />
       </>
   );
