@@ -3,7 +3,7 @@ import React from 'react'
 const Experience:React.FC = () => {
   return (
     <div>
-        <span>Experience</span>
+        <span>Involvements</span>
         <div>
             <div>
                 

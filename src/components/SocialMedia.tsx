@@ -6,7 +6,7 @@ import leetcodeIcon from '../assets/socials/leetcode.png';
 const SocialMedia: React.FC = () => {
   return (
     <div className="fixed bottom-0 left-0 mb-4 ml-8 flex flex-col items-center">
-      <ul className="space-y-6 mt-4">
+      <ul className="space-y-5 mt-4">
         <li>
           <a
             href="https://www.linkedin.com/in/sarika-ghimire/"
