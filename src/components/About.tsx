@@ -2,7 +2,7 @@ import React from 'react'
 
 const About: React.FC = () => {
   return (
-    <div className="bg-primary py-12 lg:h-[800px]">
+    <div className="bg-primary py-12 lg:h-[500px]">
       <div className="container px-4 lg:px-0">
         <div className="lg:ml-[420px] text-white sm:m-12 lg:mx-0">
           <span className="text-4xl font-bold text-rose-400 block sm:inline">KNOW SARIKA</span>

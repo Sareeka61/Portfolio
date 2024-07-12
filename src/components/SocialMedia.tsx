@@ -5,7 +5,7 @@ import leetcodeIcon from '../assets/socials/leetcode.png';
 
 const SocialMedia: React.FC = () => {
   return (
-    <div className="fixed bottom-0 left-0 mb-4 ml-8 flex flex-col items-center">
+    <div className="fixed bottom-0 left-0 mb-4 ml-10 flex flex-col items-center">
       <ul className="space-y-5 mt-4">
         <li>
           <a
@@ -63,7 +63,7 @@ const SocialMedia: React.FC = () => {
           </a>
         </li>
       </ul>
-      <div className="h-[3.6cm] w-px bg-gray-300 mt-[10px] mb-[-12px]"></div>
+      <div className="h-[3.6cm] w-px bg-gray-300 mt-[12px] mb-[-12px]"></div>
     </div>
   );
 };
