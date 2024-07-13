@@ -1,12 +1,13 @@
 import React from 'react';
-import experiencesData from './jsonfiles/experience.json';
+import * as experiencesData from './jsonfiles/experience.json';
+
 
 const Experience: React.FC = () => {
   return (
     <div className="bg-primary p-12 mt-[-80px]">
       <span className="lg:ml-[360px] text-4xl font-bold text-rose-400 block sm:inline">EXPERIENCES</span>
       <div className="lg:ml-[360px] text-white sm:m-12 lg:mx-0 space-y-8 text-[17px]">
-        {experiencesData.experiences.map((exp, index) => (
+        {experiencesData.experiences.map((exp: any, index: number) => (
           <div
             key={index}
             className="bg-[#724c53] rounded-lg p-6 lg:h-[280px] lg:w-[1300px] shadow-lg flex transition-transform transform hover:scale-105 hover:bg-[#a48488] hover:cursor-pointer"
