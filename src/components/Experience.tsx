@@ -10,20 +10,20 @@ const Experience: React.FC = () => {
         {experiencesData.experiences.map((exp: any, index: number) => (
           <div
             key={index}
-            className="bg-[#724c53] rounded-lg p-6 lg:h-[280px] lg:w-[1300px] shadow-lg flex transition-transform transform hover:scale-105 hover:bg-[#a48488] hover:cursor-pointer"
+            className="bg-gray-300 rounded-lg p-6 lg:h-[280px] lg:w-[1300px] shadow-lg flex transition-transform transform hover:scale-105 hover:bg-white hover:cursor-pointer"
           >
             <div className="flex-1">
               <h3 className="text-xl font-bold text-rose-400">
                 {exp.promoted_position && exp.promoted_position.title ? exp.promoted_position.title : exp.title}
               </h3>
               {exp.promoted_position && exp.promoted_position.title && (
-                <p className="text-sm text-gray-200">
+                <p className="text-sm text-gray-700">
                   Promoted to {exp.promoted_position.title} since {exp.promoted_position.date_since}
                 </p>
               )}
-              {exp.company_name && <p className="text-gray-100">{exp.company_name}</p>}
-              {exp.company_location && <p className="text-gray-100">{exp.company_location}</p>}
-              <p className="mt-2 text-gray-200">{exp.description}</p>
+              {exp.company_name && <p className="text-gray-600">{exp.company_name}</p>}
+              {exp.company_location && <p className="text-gray-600">{exp.company_location}</p>}
+              <p className="mt-2 text-gray-700">{exp.description}</p>
             </div>
             <div className="ml-auto text-right">
               {exp['job-type'] && <p className="text-gray-100">{exp['job-type']}</p>}

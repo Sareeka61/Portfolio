@@ -5,6 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import SocialMedia from './components/SocialMedia';
 import Counter from './components/Counter';
+import Education from './components/Education';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Counter />
         <SocialMedia />
         <Experience />
+        <Education />
       </>
   );
 };

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import MyPhoto from "../assets/sarika.png";
 
 const LandingPage: React.FC = () => {
-  const [isFixed, setIsFixed] = useState(true);
+  const [isFixed, setIsFixed] = useState(false);
   const fixedPoint = 500;
   const handleScroll = () => {
     const shouldFix = window.scrollY <= fixedPoint;
