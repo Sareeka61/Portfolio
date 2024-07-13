@@ -8,13 +8,13 @@ import Counter from './components/Counter';
 
 const App: React.FC = () => {
   return (
-      <>
-      <Navbar />
-      <LandingPage />
-      <About />
-      < Counter />
-      < SocialMedia />
-      <Experience />
+    <>
+        <Navbar />
+        <LandingPage />
+        <About />
+        <Counter />
+        <SocialMedia />
+        <Experience />
       </>
   );
 };

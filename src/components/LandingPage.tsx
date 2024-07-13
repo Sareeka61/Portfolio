@@ -4,8 +4,7 @@ import MyPhoto from "../assets/sarika.png";
 
 const LandingPage: React.FC = () => {
   const [isFixed, setIsFixed] = useState(true);
-  const fixedPoint = 770;
-
+  const fixedPoint = 500;
   const handleScroll = () => {
     const shouldFix = window.scrollY <= fixedPoint;
     setIsFixed(shouldFix);
@@ -41,7 +40,7 @@ const LandingPage: React.FC = () => {
                   position: "relative",
                   zIndex: 10,
                   top: -24,
-                  boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.9)",
+                  boxShadow: "0px 9px 16px rgba(24, 44, 188, 0.9)",
                 }}
               />
             </div>
@@ -80,7 +79,7 @@ const LandingPage: React.FC = () => {
             <div className="mt-6">
               <a
                 href="/path/to/your/resume.pdf"
-                className="text-rose-400 text-xl underline px-6 py-2 rounded-full inline-block"
+                className="text-rose-400 text-xl underline px-6 py-2 rounded-full inline-block ml-[-23px]"
                 target="_blank"
                 rel="noopener noreferrer"
               >
