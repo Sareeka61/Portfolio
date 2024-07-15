@@ -40,7 +40,7 @@ const LandingPage: React.FC = () => {
                   position: "relative",
                   zIndex: 10,
                   top: -24,
-                  boxShadow: "0px 9px 16px rgba(24, 44, 188, 0.9)",
+                  boxShadow: "0px 9px 16px rgba(0, 0, 0, 0.9)",
                 }}
               />
             </div>

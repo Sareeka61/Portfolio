@@ -1,0 +1,52 @@
+{
+    "awards": [
+        {
+            "icon":"src/assets/experience/shequalfoundationlogo.png",
+            "title": "Hacking for Empowered Nepal | Second Runner Up",
+            "organizer": "Shequal Foundation - Kathmandu",
+            "date":"05/2024"
+        },
+        {
+            "icon":"src/assets/awards/csitanbmc.png",
+            "title": "Gracathon-2081 | Winner",
+            "organizer": "CSITAN-BMC - Butwal",
+            "date":"04/2024"
+        },
+        {
+            "icon":"src/assets/awards/threatcon.png",
+            "title": "ThreatCon 2023 | Scholar",
+            "organizer": "ThreatCon - Kathmandu",
+            "date":"07/2023"
+        },
+        {
+            "icon":"src/assets/awards/techparva.png",
+            "title": "TechParva2.0 BabyPwn CTF | Second Runner Up",
+            "organizer": "iCES - WRC, Pokhara",
+            "date":"01/2024"
+        },
+        {
+            "icon":"src/assets/awards/muroranlogo.png",
+            "title": "PNC-Muroran Collaborative Research Workshop | Fellow",
+            "organizer": "Prithvi Narayan Campus, Pokhara",
+            "date":"03/2023"
+        },
+        {
+            "icon":"src/assets/awards/wecode.png",
+            "title": "Harvard WEAmplify Extended Scholarship",
+            "organizer": "Harvard WECode Team",
+            "date":"12/2022"
+        },
+        {
+            "icon":"src/assets/awards/wiit.png",
+            "title": "WIIT - CTF | Second Runner Up",
+            "organizer": "WIIT - Kathmandu",
+            "date":"12/2022"
+        },
+        {
+            "icon":"src/assets/awards/utechalpha.png",
+            "title": "U-Tech Hackathon-Alpha | First Runner Up",
+            "organizer": "UTech College - Chitwan",
+            "date":"11/2022"
+        }
+    ]
+}

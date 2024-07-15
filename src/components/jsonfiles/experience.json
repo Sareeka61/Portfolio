@@ -1,25 +1,41 @@
 {
   "experiences": [
     {
+      "icon": "src/assets/experience/wlit.png",
+      "title": "WLiT Fellowship 2024/25",
+      "promoted_position": {
+        "title": null,
+        "date_since": "06/2024"
+      },
+      "description": "• Participating in full stack development bootcamp based on JavaScript.\n • Leadership and Self Development Sessions \n • Making projects and involving in job-ready skill development sessions. \n • School Sessions for communtiy awareness regarding coding to kids of Grade 7-10.",
+      "company_name": "WLiT",
+      "company_location": "Kathmandu, Nepal",
+      "job-type": "Hybrid",
+      "date_from": "06/2024",
+      "date_to": "Present"
+    },
+    {
+      "icon": "src/assets/experience/shequalfoundationlogo.png",
       "title": "Field Coordinator",
       "promoted_position": {
         "title": null,
         "date_since": "12/2023"
       },
-      "description": "Working as a field coordinator for the company's project with UNDP - 'Breaking Out of Cocoon' targeted towards 100+ students from 3rd and 4th-year female undergraduate IT and engineering students of Pokhara for their overall enhancement in skill development personally and professionally.",
+      "description": "• Working as a field coordinator for the company's project with UNDP - 'Breaking Out of Cocoon' targeted towards 100+ students from 3rd and 4th-year female undergraduate IT and engineering students of Pokhara for their overall enhancement in skill development personally and professionally.",
       "company_name": "Shequal Foundation",
       "company_location": "Kathmandu, Nepal",
       "job-type": "Part-time/Hybrid",
-      "date_from": "06/2023",
+      "date_from": "12/2023",
       "date_to": "03/2024"
     },
     {
+      "icon": "src/assets/experience/csitanpokharalogo.png",
       "title": "Executive",
       "promoted_position": {
         "title": "Joint Secretary",
         "date_since": "11/2022"
       },
-      "description": "Planning, leading, and running different technology-related workshops, and conferences to help CS students enhance, showcase, and polish their knowledge and skills. Visiting companies, colleges and governmental organizations with sponsorship proposals for our events and collaborating with them.",
+      "description": "• Planning, leading, and running different technology-related workshops, and conferences to help CS students enhance, showcase, and polish their knowledge and skills. \n • Visiting companies, colleges and governmental organizations with sponsorship proposals for our events and collaborating with them.",
       "company_name": "CSITAN-Pokhara",
       "company_location": "Pokhara, Nepal",
       "job-type": "Voluntary/Hybrid",
@@ -27,12 +43,13 @@
       "date_to": "Present"
     },
     {
+      "icon": "src/assets/experience/host.png",
       "title": "Event Host",
       "promoted_position": {
         "title": null,
         "date_since": "2020"
       },
-      "description": "Hosted online and on-site technology and leadership related sessions voluntarily for different communities.",
+      "description": "• Hosted online and on-site technology and leadership related sessions voluntarily for different communities.",
       "company_name": null,
       "company_location": "Pokhara, Nepal",
       "job-type": "Voluntary/Hybrid",
