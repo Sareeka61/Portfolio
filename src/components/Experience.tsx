@@ -9,12 +9,12 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <div className="bg-primary p-12 mt-[-80px] flex justify-center items-center min-h-screen">
-      <div className="space-y-4">
+    <div className="bg-primary p-12 flex justify-center items-center min-h-screen">
+      <div className="space-y-4 w-full max-w-3xl">
         {experiencesData.experiences.map((exp: any, index: number) => (
           <div
             key={index}
-            className="bg-gray-200 rounded-md p-6 lg:h-auto lg:w-[800px] shadow-lg flex flex-col transition-transform transform hover:scale-105 hover:bg-white hover:cursor-pointer"
+            className="bg-gray-200 rounded-md p-6 shadow-lg flex flex-col transition-transform transform hover:scale-105 hover:bg-white hover:cursor-pointer"
           >
             <div className="flex items-center">
               {exp.icon && <img src={exp.icon} alt={`${exp.company_name} icon`} className="w-16 h-16 mr-4" />}
