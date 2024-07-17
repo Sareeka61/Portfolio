@@ -1,0 +1,20 @@
+{
+    "projects": [
+      {
+        "image": "src/assets/projects/airally.png",
+        "title": "AirAlly",
+        "description": "An innovative air quality monitoring system."
+      },
+      {
+        "image": "src/assets/projects/cerviscan-image.png",
+        "title": "CerviScan",
+        "description": "ML model to classify types of cervix for reducing misdiagnosis of cervix cancer."
+      },
+      {
+        "image": "src/assets/projects/bookbliss.png",
+        "title": "BookBliss",
+        "description": "An online bookstore website."
+      }
+    ]
+  }
+  

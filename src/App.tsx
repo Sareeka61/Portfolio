@@ -9,6 +9,7 @@ import Counter from './components/Counter';
 import Education from './components/Education';
 import Awards from './components/Awards';
 import Involvement from './components/Involvement';
+import Projects from './components/Projects';
 
 const App: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const App: React.FC = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/awards" element={<Awards />} />
           </Routes>
+          <Projects />
         </div>
       </div>
     </Router>
