@@ -4,7 +4,7 @@ import educationData from './jsonfiles/education.json';
 const Education = () => {
   return (
     <div className="bg-primary p-12 flex justify-center items-center min-h-screen">
-      <div className="space-y-4 w-full max-w-3xl">
+      <div className="space-y-4 w-full max-w-3xl lg:mt-[-280px]">
         {educationData.education.map((edu, index) => (
           <div
             key={index}

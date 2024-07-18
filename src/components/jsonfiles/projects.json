@@ -1,29 +1,36 @@
 {
-    "projects": [
-      {
-        "image": "src/assets/projects/airally.png",
-        "title": "AirAlly",
-        "description": "Real time air quality information platform based on geolocation. Compares and shows places with better AQI in neighborhood areas.",
-        "technologies":"Vanilla JS, Vanilla CSS, HTML"
-      },
-      {
-        "image": "src/assets/projects/cerviscan-image.png",
-        "title": "CerviScan",
-        "description": "ML model to classify types of cervix for reducing misdiagnosis of cervix cancer.",
-        "technologies":"ReactJS, Vanilla CSS, HTML"
-      },
-      {
-        "image": "src/assets/projects/portfolio.png",
-        "title": "My Portfolio",
-        "description": "A responsive portfolio website.",
-        "technologies":"ReactJS, TypeScript, TailwindCSS"
-      },
-      {
-        "image": "src/assets/projects/bookbliss.png",
-        "title": "BookBliss",
-        "description": "A responsive online bookstore website.",
-        "technologies":"Vanilla CSS, HTML"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "image": "src/assets/projects/airally.png",
+      "title": "AirAlly",
+      "description": "Real time air quality information platform based on geolocation. Compares and shows places with better AQI in neighborhood areas.",
+      "technologies": "Vanilla JS, Vanilla CSS, HTML",
+      "githubLink": "https://github.com/Sareeka61/AirAlly",
+      "demoLink": ""
+    },
+    {
+      "image": "src/assets/projects/cerviscan-image.png",
+      "title": "CerviScan",
+      "description": "ML model to classify types of cervix for reducing misdiagnosis of cervix cancer.",
+      "technologies": "ReactJS, Vanilla CSS, HTML",
+      "githubLink": "https://github.com/Sareeka61/cerviscan",
+      "demoLink": ""
+    },
+    {
+      "image": "src/assets/projects/portfolio.png",
+      "title": "My Portfolio",
+      "description": "A responsive portfolio website.",
+      "technologies": "ReactJS, TypeScript, TailwindCSS",
+      "githubLink": "https://github.com/Sareeka61/Portfolio",
+      "demoLink":""
+    },
+    {
+      "image": "src/assets/projects/bookbliss.png",
+      "title": "BookBliss",
+      "description": "A responsive online bookstore website.",
+      "technologies": "Vanilla CSS, HTML",
+      "githubLink": "https://github.com/Sareeka61/bookBliss-store-website",
+      "demoLink": "https://bookbliss.netlify.app/"
+    }
+  ]
+}

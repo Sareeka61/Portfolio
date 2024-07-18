@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <div className="lg:ml-[420px] text-white sm:m-12 lg:mx-0">
           <span className="text-4xl font-bold text-rose-400 block sm:inline">KNOW SARIKA</span>
           <div className="mt-2">
-            <p className="text-white text-xl lg:text-2xl lg:w-[800px] sm:m-4 lg:ml-[0px]">
+            <p className="text-white text-xl lg:text-2xl lg:w-[780px] sm:m-4 lg:ml-[0px]">
               Hi, this is Sarika Ghimire. I am a Computer Science undergraduate student from Pokhara. 
               <br />
               <br />

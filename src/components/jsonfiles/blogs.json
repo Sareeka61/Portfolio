@@ -1,0 +1,24 @@
+{
+    "blogs": [
+      {
+        "image":"https://miro.medium.com/v2/resize:fit:720/format:webp/1*NaN20ycWGgSvyqw-hol8eg.png",
+        "title":"Using the getTime() method in JavaScript",
+        "link":"https://medium.com/@ghimiresarika61/using-the-gettime-method-in-javascript-63fd3e25db1c"
+      },
+      {
+        "image":"https://miro.medium.com/v2/resize:fit:4800/format:webp/0*2y4bhuajCPyXMddp.jpg",
+        "title":"Shallow Copy Vs. Deep Copy in JavaScript",
+        "link":"https://medium.com/@ghimiresarika61/shallow-copy-vs-deep-copy-in-javascript-88fa3969926f"
+      },
+      {
+        "image":"https://miro.medium.com/v2/resize:fit:4800/format:webp/0*KvQpadMBT-ebu53k",
+        "title":"A Beginner’s Guide to the Dark Web: What is it And Why Should I Care?",
+        "link":"https://medium.com/@ghimiresarika61/a-beginners-guide-to-the-dark-web-what-is-it-and-why-should-i-care-80b23e221609"
+      },
+      {
+        "image":"https://miro.medium.com/v2/resize:fit:720/format:webp/1*1Rs4Wcb1LJYQ48nZifu1vw.jpeg",
+        "title":"GPT AI: A Game-Changing Model in Artificial Intelligence",
+        "link":"https://medium.com/zerone-magazine/gpt-ai-a-game-changing-model-in-artificial-intelligence-f97a013f771e"
+      }
+    ]
+}
