@@ -5,6 +5,7 @@ interface Project {
   image: string;
   title: string;
   description: string;
+  technologies: string;
 }
 
 const Projects: React.FC = () => {
@@ -50,6 +51,7 @@ const Projects: React.FC = () => {
               </div>
               <div className="bg-white text-black p-4">
                 <h4 className="text-2xl font-bold">{project.title}</h4>
+                <p className='font-semibold'>Technologies Used: {project.technologies}</p>
                 <p className="text-sm mt-2">{project.description}</p>
               </div>
             </div>
