@@ -11,6 +11,7 @@ import Awards from './components/Awards';
 import Involvement from './components/Involvement';
 import Projects from './components/Projects';
 import Blogs from './components/Blogs';
+import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ const App: React.FC = () => {
           </Routes>
           <Projects />
           <Blogs />
+          <Contact />
         </div>
       </div>
     </Router>

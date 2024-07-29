@@ -37,8 +37,9 @@ const Projects: React.FC = () => {
   }, [currentIndex]);
 
   return (
-    <div className='bg-primary py-10'>
-      <div className="relative mx-auto w-full max-w-4xl">
+    <div className='bg-primary py-10 '>
+      <div className='p-[100px]'>
+      <div className="relative mx-auto w-full max-w-4xl ">
         <h2 className='text-4xl font-bold text-rose-400 flex pb-[8px]'>PROJECTS</h2>
         <div
           ref={carouselRef}
@@ -83,6 +84,7 @@ const Projects: React.FC = () => {
         <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-slate-400 text-white p-2 rounded-full">
           &gt;
         </button>
+        </div>
       </div>
     </div>
   );

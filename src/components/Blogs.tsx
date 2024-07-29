@@ -34,8 +34,8 @@ const Blogs: React.FC = () => {
     }, [currentIndex]);
 
     return (
-        <div className="bg-primary py-10">
-            <div className="relative mx-auto w-full max-w-4xl">
+        <div className="bg-primary py-10 lg:pb-[200px]">
+            <div className="relative mx-auto w-full max-w-4xl lg:pb-[60px]">
                 <h2 className="text-4xl font-bold text-rose-400 flex pb-4">BLOGS</h2>
                 <div
                     ref={carouselRef}
@@ -48,7 +48,7 @@ const Blogs: React.FC = () => {
                             className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-2"
                             style={{ minHeight: '400px' }}
                         >
-                            <div className="max-w-sm rounded overflow-hidden shadow-lg h-full bg-rose-300">
+                            <div className="max-w-sm  overflow-hidden shadow-lg h-full bg-rose-300 rounded-xl">
                                 <img
                                     src={blog.image}
                                     alt={blog.title}
