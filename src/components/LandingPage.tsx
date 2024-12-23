@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
-import MyPhoto from "../assets/sarika.png";
+import MyPhoto from "/assets/sarika.png";
 
 const LandingPage: React.FC = () => {
   const [isFixed, setIsFixed] = useState(false);

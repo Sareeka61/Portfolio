@@ -1,26 +1,25 @@
 {
-    "education": [
-      {
-        "icon":"src/assets/education/pncampus.png",
-        "institution": "Tribhuwan University, Prithvi Narayan Campus",
-        "course": "Bachelor in Computer Science and Information Technology",
-        "date": "2022-present",
-        "description": "• Student fellow for student exchange program with 'Muroran Institute of Technology', Japan \n • CR for batch 2022"
-      },
-      {
-        "icon":"src/assets/education/amhss.png",
-        "institution": "Amarsingh Higher Secondary School",
-        "course": "+2 level",
-        "date": "2019-2020",
-        "description": "• 2nd Runner Up, RealNepalTV presents Speech Maker 2019"
-      },
-      {
-        "icon":"src/assets/education/sns.png",
-        "institution": "Shanti Niketan School",
-        "course": "SEE level",
-        "date": "Graduated: 2019",
-        "description": "• Winner of several interschool, district-level and provincial essay-writing and speech competitions in Nepali & English language."
-      }
-    ]
-  }
-  
+  "education": [
+    {
+      "icon": "/assets/education/pncampus.png",
+      "institution": "Tribhuwan University, Prithvi Narayan Campus",
+      "course": "Bachelor in Computer Science and Information Technology",
+      "date": "2022-present",
+      "description": "• Student fellow for student exchange program with 'Muroran Institute of Technology', Japan \n • CR for batch 2022"
+    },
+    {
+      "icon": "/assets/education/amhss.png",
+      "institution": "Amarsingh Higher Secondary School",
+      "course": "+2 level",
+      "date": "2019-2020",
+      "description": "• 2nd Runner Up, RealNepalTV presents Speech Maker 2019"
+    },
+    {
+      "icon": "/assets/education/sns.png",
+      "institution": "Shanti Niketan School",
+      "course": "SEE level",
+      "date": "Graduated: 2019",
+      "description": "• Winner of several interschool, district-level and provincial essay-writing and speech competitions in Nepali & English language."
+    }
+  ]
+}

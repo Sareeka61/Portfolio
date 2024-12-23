@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "image": "src/assets/projects/airally.png",
+      "image": "/assets/projects/airally.png",
       "title": "AirAlly",
       "description": "Real time air quality information platform based on geolocation. Compares and shows places with better AQI in neighborhood areas.",
       "technologies": "Vanilla JS, Vanilla CSS, HTML",
@@ -9,7 +9,7 @@
       "demoLink": ""
     },
     {
-      "image": "src/assets/projects/cerviscan-image.png",
+      "image": "/assets/projects/cerviscan-image.png",
       "title": "CerviScan",
       "description": "ML model to classify types of cervix for reducing misdiagnosis of cervix cancer.",
       "technologies": "ReactJS, Vanilla CSS, HTML",
@@ -17,7 +17,7 @@
       "demoLink": ""
     },
     {
-      "image": "src/assets/projects/portfolio.png",
+      "image": "/assets/projects/portfolio.png",
       "title": "My Portfolio",
       "description": "A responsive portfolio website.",
       "technologies": "ReactJS, TypeScript, TailwindCSS",
@@ -25,7 +25,7 @@
       "demoLink":""
     },
     {
-      "image": "src/assets/projects/bookbliss.png",
+      "image": "/assets/projects/bookbliss.png",
       "title": "BookBliss",
       "description": "A responsive online bookstore website.",
       "technologies": "Vanilla CSS, HTML",

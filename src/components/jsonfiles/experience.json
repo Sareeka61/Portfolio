@@ -1,7 +1,7 @@
 {
   "experiences": [
     {
-      "icon": "src/assets/experience/wlit.png",
+      "icon": "/assets/experience/wlit.png",
       "title": "WLiT Fellowship 2024/25",
       "promoted_position": {
         "title": null,
@@ -15,7 +15,7 @@
       "date_to": "Present"
     },
     {
-      "icon": "src/assets/experience/shequalfoundationlogo.png",
+      "icon": "/assets/experience/shequalfoundationlogo.png",
       "title": "Field Coordinator",
       "promoted_position": {
         "title": null,
@@ -29,7 +29,7 @@
       "date_to": "03/2024"
     },
     {
-      "icon": "src/assets/experience/csitanpokharalogo.png",
+      "icon": "/assets/experience/csitanpokharalogo.png",
       "title": "Executive",
       "promoted_position": {
         "title": "Joint Secretary",
@@ -43,7 +43,7 @@
       "date_to": "Present"
     },
     {
-      "icon": "src/assets/experience/host.png",
+      "icon": "/assets/experience/host.png",
       "title": "Event Host",
       "promoted_position": {
         "title": null,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import leetcodeIcon from '../assets/socials/leetcode.png';
+import leetcodeIcon from '/assets/socials/leetcode.png';
 
 const SocialMedia: React.FC = () => {
   return (

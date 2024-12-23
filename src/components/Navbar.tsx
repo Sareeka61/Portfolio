@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import logo from "../assets/SG.png";
-import MenuIcon from "../assets/menu.png";
-import CloseIcon from "../assets/close.png";
-import HomeIcon from "../assets/navigations/home.png";
-import AboutIcon from "../assets/navigations/about.png";
-import ProjectsIcon from "../assets/navigations/projects.png";
-import InvolvementsIcon from "../assets/navigations/involvements.png";
-import BlogsIcon from "../assets/navigations/blog.png";
-import ContactIcon from "../assets/navigations/contact.png";
+import logo from "/assets/SG.png";
+import MenuIcon from "/assets/menu.png";
+import CloseIcon from "/assets/close.png";
+import HomeIcon from "/assets/navigations/home.png";
+import AboutIcon from "/assets/navigations/about.png";
+import ProjectsIcon from "/assets/navigations/projects.png";
+import InvolvementsIcon from "/assets/navigations/involvements.png";
+import BlogsIcon from "/assets/navigations/blog.png";
+import ContactIcon from "/assets/navigations/contact.png";
 
 interface NavItem {
   icon: string;
