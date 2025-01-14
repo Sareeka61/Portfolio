@@ -18,6 +18,7 @@ const LandingPage: React.FC = () => {
   }, []);
 
   return (
+    <section id="home">
     <div className="relative lg:min-h-[850px] bg-primary">
       <Navbar />
       <div className="absolute inset-0 bg-primary backdrop-blur-sm"></div>
@@ -90,6 +91,7 @@ const LandingPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

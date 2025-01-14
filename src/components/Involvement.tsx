@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Involvement: React.FC = () => {
   return (
+    <section id="#involvements">
     <div className="bg-primary py-4 px-8 flex justify-center items-center">
       <nav className="space-x-4">
         <NavLink
@@ -31,6 +32,7 @@ const Involvement: React.FC = () => {
         </NavLink>
       </nav>
     </div>
+    </section>
   );
 };
 

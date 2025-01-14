@@ -16,21 +16,21 @@ interface NavItem {
 }
 
 const icons: NavItem[] = [
-  { icon: HomeIcon, text: "Home", link: "#home" },
-  { icon: AboutIcon, text: "About", link: "#about" },
-  { icon: ProjectsIcon, text: "Projects", link: "#projects" },
-  { icon: InvolvementsIcon, text: "Involvements", link: "#involvements" },
-  { icon: BlogsIcon, text: "Blogs", link: "#blogs" },
-  { icon: ContactIcon, text: "Contact", link: "#contact" },
+  { icon: HomeIcon, text: "Home", link: "/#home" },
+  { icon: AboutIcon, text: "About", link: "/#about" },
+  { icon: ProjectsIcon, text: "Projects", link: "/#projects" },
+  { icon: InvolvementsIcon, text: "Involvements", link: "/#involvements" },
+  { icon: BlogsIcon, text: "Blogs", link: "/#blogs" },
+  { icon: ContactIcon, text: "Contact", link: "/#contact" },
 ];
 
 const textLinks: { text: string; link: string }[] = [
-  { text: "Home", link: "#home" },
-  { text: "About", link: "#about" },
-  { text: "Projects", link: "#projects" },
-  { text: "Involvements", link: "#involvements" },
-  { text: "Blogs", link: "#blogs" },
-  { text: "Contact", link: "#contact" },
+  { text: "Home", link: "/#home" },
+  { text: "About", link: "/#about" },
+  { text: "Projects", link: "/#projects" },
+  { text: "Involvements", link: "/#involvements" },
+  { text: "Blogs", link: "/#blogs" },
+  { text: "Contact", link: "/#contact" },
 ];
 
 const Navbar: React.FC = () => {

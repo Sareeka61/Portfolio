@@ -31,19 +31,19 @@
             "date":"03/2023"
         },
         {
-            "icon":"src/assets/awards/wecode.png",
+            "icon":"/assets/awards/wecode.png",
             "title": "Harvard WEAmplify Extended Scholarship",
             "organizer": "Harvard WECode Team",
             "date":"12/2022"
         },
         {
-            "icon":"src/assets/awards/wiit.png",
+            "icon":"/assets/awards/wiit.png",
             "title": "WIIT - CTF | Second Runner Up",
             "organizer": "WIIT - Kathmandu",
             "date":"12/2022"
         },
         {
-            "icon":"src/assets/awards/utechalpha.png",
+            "icon":"/assets/awards/utechalpha.png",
             "title": "U-Tech Hackathon-Alpha | First Runner Up",
             "organizer": "UTech College - Chitwan",
             "date":"11/2022"
